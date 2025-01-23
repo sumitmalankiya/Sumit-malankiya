@@ -1,6 +1,6 @@
 WebScraper is a simple Python-based command-line tool to perform HTTP requests and retrieve content from a specified URL. It supports GET and POST requests and allows the user to pass custom headers.
 
-pip install requests
+pip install -r requirements.txt
 
 python scraper.py -u https://quotes.toscrape.com/ -m GET -H upgrade-insecure-requests=1
 
